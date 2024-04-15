@@ -1,4 +1,5 @@
 import "../styles/EditButton.css";
+import '../assets/edit.svg';
 
 export function EditButton({ onClick, hidden }) {
   return (
