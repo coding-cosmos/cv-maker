@@ -1,0 +1,20 @@
+div.field {
+    /* width: 50%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .5rem;
+    align-items: center;
+    justify-content: space-between;
+    color: #455a64;
+}
+
+div.field>input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #455a64;
+}
+
+div.field>input::placeholder {
+    color: #cfd8dc;
+}

@@ -1,0 +1,21 @@
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    padding: 1.5rem;
+    border: 1px solid #455a64;
+    border-radius: 1rem;
+
+    box-shadow: 0px 0px 2px 1px #e0f7fa;
+}
+
+/* cyan 700 */
+fieldset>legend {
+    color: #455a64
+}
+
+.icon {
+    display: flex;
+    align-self: flex-end;
+}

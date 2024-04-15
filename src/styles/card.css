@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: .75rem;
+    border-radius: 1rem;
+    gap: .5rem;
+}
+
+.card>.children {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .icon {
+    align-self: flex-start;
+}
+
