@@ -17,13 +17,13 @@ export function Resume({
           </div>
           <div className="email">
             <div className="email-icon">
-              <img src="../src/assets/gmail.svg" alt="" />
+              <img src="assets/gmail.svg" alt="" />
             </div>
             {generalData.email}
           </div>
           <div className="phone">
             <div className="phone-icon">
-              <img src="../src/assets/phone.png" alt="" />
+              <img src="assets/phone.png" alt="" />
             </div>
             +91 {generalData.phone}
           </div>
